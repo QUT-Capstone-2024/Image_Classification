@@ -4,12 +4,12 @@ import numpy as np
 from PIL import Image
 import io
 import boto3
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 
 app = Flask(__name__)
 
 # Load the trained model
-model = tf.keras.models.load_model('mobilenetv2_house_rooms_model.h5')
+model = tf.keras.models.load_model('mobilenetv2_house_rooms_model_resaved.h5')
 
 # Define the categories
 categories = ['Bathroom', 'Bedroom', 'Dinning', 'Kitchen', 'Livingroom', 'Street']
