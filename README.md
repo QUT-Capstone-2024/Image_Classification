@@ -3,6 +3,7 @@
 How to run flask API:
 First Get the Newest version of the repo.
 Do these things in CMD:
+(pip - 24.2, py - 3.10.4)
 
 1. cd YourPathToImageClassificationRepo
 2. py -m venv venv (could be python instead of py)
