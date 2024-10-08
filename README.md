@@ -9,7 +9,7 @@ Do these things in CMD:
 2. py -m venv venv (could be python instead of py)
 3. venv\Scripts\activate
 4. pip install -r requirement.txt
-5. pip install tensorflow==2.9.0
+5. pip install tensorflow==2.12.0
 6. pip install flask
 7. pip install numpy==1.24.3
 8. pip install pillow==10.2.0
