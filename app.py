@@ -41,7 +41,7 @@ def classify_image():
 
     image_url = data['url']
     bucket_name = 'visioncore-image-bucket' 
-    key = image_url.split(f'https://{bucket_name}.s3.amazonaws.com/')[1]
+    key = image_url.split(f'https://{bucket_name}.s3.ap-southeast-2.amazonaws.com/')[1]
 
 
     try:
